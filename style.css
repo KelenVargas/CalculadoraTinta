@@ -1,0 +1,98 @@
+body{
+    background: #CFCFCF;
+}
+
+.titulo-primario{
+font-size: 20px;
+text-align: center;
+color: #8B4726;
+font-family: 'Dancing Script', cursive;
+
+}
+
+.titulo-secundario{
+    font-size:30px;
+    padding-top: 0;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:#8B4513;
+    }
+
+.subtitulos{
+    font-size: 20px;    
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+ text-align: center;
+
+}
+
+
+/*aba resultado*/
+
+.resultado{
+    text-align: center;
+    color: #c04609;
+    font-family: 'Poppins', sans-serif
+}
+
+.txtresult{
+    text-align: center;
+    color: aliceblue;
+    background: #696969 ;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+/*aba formulario*/
+
+.contato{
+    color: #c04609;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fraseform{
+    font-size: 18px;
+}
+
+.campo{
+    width: 300px;
+    height: 200px;
+    color: black;   
+    margin-top: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+input{
+    width: 250px;
+    margin-top: 10px;
+    
+}
+
+.enviar{
+    background-color: #f0530b;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+
+}
+
+.field{
+    width:400px;
+}
+
+

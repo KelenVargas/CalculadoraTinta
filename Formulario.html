@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CalculadoraTinta.html">
+</head>
+<body>
+    <header>
+        <h1 class="contato">Entre em contato</h1>
+        <p class="fraseform">Gostou do nosso site ou quer deixar uma sugestão de melhoria?</p>
+        <p class="fraseform">Preencha os dados abaixos e nos envie sua mensagem!</p>
+    </header>
+    
+    <form>
+        <fieldset class="field">
+            <legend>Formulário</legend>
+            <div>
+                <label>Nome: </label>
+                <input  type="text" name="nome" id="nome" placeholder="Digite seu nome" required="required">
+            </div>
+
+            <div>
+                <label>Sobrenome: </label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required="required">
+            </div>
+      
+
+        <div>
+            <label>E-mail</label>
+            <input  type="email" name="email" id="email" placeholder="Digite seu e-mail nome@email.com.br" required="required">
+
+        </div>
+
+        <div>
+            <textarea class = "campo" required="required" placeholder=" Deixe aqui sua opinião"></textarea>
+        </div>
+        </fieldset>
+
+        <input type="submit" class="enviar" value="Enviar" onclick="enviar()">
+    </form>
+
+   
+
+
+    <footer><!--rodapé-->
+        <div class="img">
+        <img src="logo-footer.png" alt="Logo">
+        </div>
+        <p class="copyright"> &copy; Calculadora de tintas Vargas</p>
+    </footer><!--rodapé-->
+    <script src="script.js"></script>
+</body>
+</html>

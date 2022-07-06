@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de tinta</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="titulo-primario">Desenvolvimento de um projeto utilizando Linguagens apresentadas
+                                        no Plano de Estudos usando Lógica</h1>
+            <hr>                             
+            <h2 class="titulo-secundario">Calculadora de tinta</h2>
+            <hr>
+            <p class="subtitulos">Calcule de forma fácil a quantidade de tinta que vai precisar antes de pintar!</p>          
+        </header>
+
+        <form class="Form">
+            <fieldset>
+                <div class="parede">
+                Digite o valor da altura da parede I : <input type="number" id=Altura placeholder="altura(m)" ><br>
+                Digite o valor da largura da parede I : <input type="number" id=Largura placeholder="altura(m)">
+                </div>      
+                    <br><button type="button" onclick="Salvar(1)">Salvar</button>
+
+            </fieldset>
+
+            <fieldset>
+                <div class="parede">
+                Digite o valor da altura da parede II : <input type="number" id=Altura2 placeholder="altura(m)"><br>
+                Digite o valor da largura da parede II : <input type="number" id=Largura2 placeholder="altura(m)">
+                </div>      
+            <br><button type="button" onclick="Salvar(2)">Salvar</button>
+                   
+            </fieldset>
+
+            <fieldset>
+                <div class="parede">
+                Digite o valor da altura da parede III : <input type="number" id=Altura3 placeholder="altura(m)"><br>
+                Digite o valor da largura da parede III : <input type="number" id=Largura3 placeholder="altura(m)">
+                </div>      
+            <br><button type="button" onclick="Salvar(3)">Salvar</button>
+                   
+            </fieldset>
+
+            <fieldset>
+                <div class="parede">
+                Digite o valor da altura da parede IV : <input type="number" id=Altura4 placeholder="altura(m)"><br>
+                Digite o valor da largura da parede IV : <input type="number" id=Largura4 placeholder="altura(m)">
+                </div>      
+            <br><button type="button" onclick="Salvar(4)">Salvar</button>
+                   
+            </fieldset>
+            <button class="botao-calcular" id="calculaTinta" type="button" onclick= "novaPagina(0)">Ver Resultado</button>
+        </form>
+
+
+
+
+
+
+
+    <footer><!--rodapé-->
+        <div class="img">
+        <img src="logo-footer.png" alt="Logo">
+        </div>
+        <p class="copyright"> &copy; Calculadora de tintas Vargas</p>
+    </footer><!--rodapé-->
+    <script src="script.js"></script>
+
+
+    </body>
+</html>
