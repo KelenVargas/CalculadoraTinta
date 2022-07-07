@@ -34,6 +34,16 @@ font-family: 'Dancing Script', cursive;
 
 }
 
+.parede ,.janela{
+   margin-top: 5px; 
+
+}
+
+.fieldcalc{
+    margin-bottom: 40px; 
+}
+
+
 
 /*aba resultado*/
 
@@ -71,7 +81,8 @@ font-family: 'Dancing Script', cursive;
     border-radius: 5px;
     border: 1px solid;
 }
-input{
+
+.input-form{
     width: 250px;
     margin-top: 10px;
     
@@ -91,7 +102,7 @@ input{
 
 }
 
-.field{
+.field {
     width:400px;
 }
 
