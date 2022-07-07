@@ -19,70 +19,75 @@
         </header>
 
         <form class="Form">
-            <fieldset>
+            <fieldset class="fieldcalc">
                 <div class="parede">
-                Digite o valor da altura da parede I : <input type="number" id=Altura placeholder="altura(m)" ><br>
-                Digite o valor da largura da parede I : <input type="number" id=Largura placeholder="largura(m)">
+                Digite o valor da altura da parede I : <input class="parede" type="number" id=Altura placeholder="altura(m)" ><br>
+                Digite o valor da largura da parede I : <input class="parede" type="number" id=Largura placeholder="largura(m)">
                 </div>   
 
                 <div class="janela"><br>
-                    • Informe a quantidade de portas e janelas que haverá na parede I<br>
+                    • Informe a quantidade de portas e janelas que haverá na parede <br>
 
-                    <input  type="number" id=janela1 placeholder="portas" required="Prencha este campo"  >
-                    <input  type="number" id=porta1 placeholder="janelas" required="Prencha este campo"  >
+                    <input class="janela"  type="number" id=janela1 placeholder="portas" required="Prencha este campo"  >
+                    <input class="janela" type="number" id=porta1 placeholder="janelas" required="Prencha este campo"  >
                 </div>
                 
             
             </fieldset>
 
-            <fieldset>
+            <fieldset  class="fieldcalc">
                 <div class="parede">
-                Digite o valor da altura da parede II : <input type="number" id=Altura2 placeholder="altura(m)"><br>
-                Digite o valor da largura da parede II : <input type="number" id=Largura2 placeholder="largura(m)">
+                Digite o valor da altura da parede II : <input class="parede"type="number" id=Altura2 placeholder="altura(m)"><br>
+                Digite o valor da largura da parede II : <input class="parede"type="number" id=Largura2 placeholder="largura(m)">
                 </div>   
                 
                 <div class="janela"><br>
-                    • Informe a quantidade de portas e janelas que haverá na parede II<br>
+                    • Informe a quantidade de portas e janelas que haverá na parede <br>
 
-                    <input  type="number" id=janela2 placeholder="portas" required="Prencha este campo"  >
-                    <input  type="number" id=porta2 placeholder="janelas" required="Prencha este campo"  >
+                    <input class="janela" type="number" id=janela2 placeholder="portas" required="Prencha este campo"  >
+                    <input class="janela" type="number" id=porta2 placeholder="janelas" required="Prencha este campo"  >
                 </div>
             </fieldset>         
            
-            <fieldset>
+            <fieldset  class="fieldcalc">
                 <div class="parede">
-                Digite o valor da altura da parede III : <input type="number" id=Altura3 placeholder="altura(m)"><br>
-                Digite o valor da largura da parede III : <input type="number" id=Largura3 placeholder="largura(m)">
+                Digite o valor da altura da parede III : <input class="parede" type="number" id=Altura3 placeholder="altura(m)"><br>
+                Digite o valor da largura da parede III : <input class="parede" type="number" id=Largura3 placeholder="largura(m)">
                 </div> 
                 
                 <div class="janela"><br>
-                    • Informe a quantidade de portas e janelas que haverá na parede III<br>
+                    • Informe a quantidade de portas e janelas que haverá na parede<br>
 
-                    <input  type="number" id=janela3 placeholder="portas" required="Prencha este campo" >
-                    <input  type="number" id=porta3 placeholder="janelas" required="Prencha este campo"  >
+                    <input class="janela" type="number" id=janela3 placeholder="portas" required="Prencha este campo" >
+                    <input class="janela" type="number" id=porta3 placeholder="janelas" required="Prencha este campo"  >
                 </div>
             </fieldset>
 
-            <fieldset>
+            <fieldset  class="fieldcalc">
                 <div class="parede">
-                Digite o valor da altura da parede IV : <input type="number" id=Altura4 placeholder="altura(m)"><br>
-                Digite o valor da largura da parede IV : <input type="number" id=Largura4 placeholder="largura(m)">
+                Digite o valor da altura da parede IV : <input class="parede" type="number" id=Altura4 placeholder="altura(m)"><br>
+                Digite o valor da largura da parede IV : <input class="parede" type="number" id=Largura4 placeholder="largura(m)">
                 </div>  
                 
                 <div class="janela"><br>
-                    • Informe a quantidade de portas e janelas que haverá na parede IV<br>
+                    • Informe a quantidade de portas e janelas que haverá na parede<br>
 
-                    <input  type="number" id=janela4 placeholder="portas" required="Prencha este campo"  >
-                    <input  type="number" id=porta4 placeholder="janelas" required="Prencha este campo"  >
+                    <input class="janela" type="number" id=janela4 placeholder="portas" required="Prencha este campo"  >
+                    <input class="janela" type="number" id=porta4 placeholder="janelas" required="Prencha este campo"  >
                 </div>
             </fieldset>
 
-
+            
             <br><button type="button" onclick="Salvar()">Salvar</button>
             <button class="botao-calcular" id="calculaTinta" type="button" onclick= "novaPagina(0)">Ver Resultado</button>
+            <div id = "res"> <strong id="result">RESULTADO</strong></div>
+
+           
         </form>
 
 
+
+       
 
 
     <footer><!--rodapé-->
