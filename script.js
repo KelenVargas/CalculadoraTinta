@@ -4,42 +4,24 @@ function novaPagina(num) {
     url[1]="http://127.0.0.1:5500/Formulario.html";
     window.location=url[num];
 
-}   
-
-    
-   // var areaPorta= 0.80*1.9;//area da porta é fixa
-    //var areaJanela= 2.00*1.20;// area da janela é fixa
-    //var areaPortaJanela = (qtdePorta*areaPorta)+(qtdeJanela*areaJanela);
-   // var areaPintar = areaParede - areaPortaJanela;
-    //var quantidadeTinta = areaParede/5;
-
-    function Salvar(){
+}       
        
+    function Salvar(){            
         var parede1= (document.getElementById("Altura").value) * (document.getElementById("Largura").value);
         var parede2= (document.getElementById("Altura2").value) * (document.getElementById("Largura2").value);
         var parede3= (document.getElementById("Altura3").value) * (document.getElementById("Largura3").value);
         var parede4= (document.getElementById("Altura4").value) * (document.getElementById("Largura4").value);
-                 
+
         
-        var areaPorta=(0.80*1.9);//area da porta é fixa  
-        Porta1= (document.getElementById("porta1").value) * (areaPorta)
-        Porta2= (document.getElementById("porta2").value) * (areaPorta)
-        Porta3= (document.getElementById("porta3").value) * (areaPorta)
-        Porta4= (document.getElementById("porta4").value) * (areaPorta)
-
-        var areaJanela=(2.00*1.20);// area da janela é fixa
-        janela1=(document.getElementById("janela1").value) * (areaJanela)
-        janela2=(document.getElementById("janela2").value) * (areaJanela)
-        janela3=(document.getElementById("janela3").value) * (areaJanela)
-        janela4=(document.getElementById("janela4").value) * (areaJanela)
-
-
+        var areaPorta=(0.80*1.9) * (document.getElementById("porta").value) ;//area da porta é fixa  
+             
+        var areaJanela=(2.00*1.20) * (document.getElementById("janela").value);// area da janela é fixa
+        
         var areaPortaJanela = areaPorta + areaJanela 
         var totalParede = parede1 + parede2 + parede3 + parede4;
         var areaPintar = totalParede - areaPortaJanela;
         var quantidadeTinta = areaPintar/5;
         var res = window.document.getElementById('res')
-
         
         console.log("Area parede 1: " + parede1);
         console.log("Area parede 2: " + parede2);
@@ -58,11 +40,52 @@ function novaPagina(num) {
     }
 
   
-   /*
+   
       function totalTinta(){
-            var quantidadeTinta = areaParede/5;
-            var latasTinta = [0.5, 2.5, 3.6, 18];  
-    
-                while(quantidadeTinta>0)
-    
-        }*/
+            var totalParede = parede1 + parede2 + parede3 + parede4;
+            var areaPintar = totalParede - areaPortaJanela;
+            var quantidadeTinta = areaPintar/5;
+            var areaPortaJanela = areaPorta + areaJanela 
+          
+                     
+             lataG  =  0 ;
+             lataM  =  0 ;
+             lataP  =  0;
+             lataPP  = 0;
+             while  ( quantidadeTinta !=  0 ){
+            if(quantidadeTinta>18){
+                lataG++
+                quantidadeTinta= quantidadeTinta--
+            } else if (quantidadeTinta>3.6) {
+                lataM++
+                quantidadeTinta= quantidadeTinta--
+            } else if (quantidadeTinta>2.5) {
+                lataP++
+                quantidadeTinta= quantidadeTinta--
+            } else if (quantidadeTinta>0.5) {
+                lataPP++
+                quantidadeTinta= quantidadeTinta--
+            } else if (quantidadeTinta>0) {
+                latasPP++
+                quantidadeTinta= 0
+            } 
+            
+        }
+            
+           
+
+        }
+
+        function Validacao(){
+
+            if(!altura || !largura){
+                
+
+            }else if (areaPortaJanela >= areaPintar/2){
+
+
+            } else if (areaParede < 1 || areaParede > 50 ){
+
+            }
+
+        }
