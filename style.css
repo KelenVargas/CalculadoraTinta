@@ -34,9 +34,14 @@ font-family: 'Dancing Script', cursive;
 
 }
 
-.parede ,.janela{
+.parede{
    margin-top: 5px; 
+}
 
+.janela, .porta{
+    margin: 10px 0 5px 0; 
+    
+  
 }
 
 .fieldcalc{
@@ -94,8 +99,6 @@ font-family: 'Dancing Script', cursive;
     width: 100px;
     font-weight: bold;
     font-size: 15px;
-    border-radius: 5px;
-    border-radius: 5px;
     border-radius: 5px;
     border: 1px solid;
     color: black;
