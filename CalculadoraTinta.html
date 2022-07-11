@@ -5,20 +5,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculadora de tinta</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">       
     </head>
 
     <body>
         <header>
-            <h1 class="titulo-primario">Desenvolvimento de um projeto utilizando Linguagens apresentadas
-                                        no Plano de Estudos usando Lógica</h1>
-            <hr>                             
-            <h2 class="titulo-secundario">Calculadora de tinta</h2>
-            <hr>
-            <p class="subtitulos">Calcule de forma fácil a quantidade de tinta que vai precisar antes de pintar!</p>          
+            <div class="container">
+                <h1><img src="logo.png" class="fotologo"></h1>        
+                <nav>
+                    <ul>
+                        <li><a href="Home.html">Página Inicial</a></li>
+                        <li><a href="CalculadoraTinta.html">Calculadora de tinta</a></li>
+                        <li><a href="Formulario.html">Entre em contato</a></li>
+                    </ul>
+                </nav>
+            </div>                      
         </header>
 
-        <form class="Form">
+            <div>
+                <h1 class="titulo-primario">Desenvolvimento de um projeto utilizando Linguagens apresentadas
+                    no Plano de Estudos usando Lógica</h1>
+                <hr>                             
+                <h2 class="titulo-secundario">Calculadora de tinta</h2>
+                <hr>
+                <p class="subtitulos">Calcule de forma fácil a quantidade de tinta que vai precisar antes de pintar!</p>    
+            </div>
+        
+            <form action="Resultado.html" method="post"  class="Form">
                 <fieldset class="fieldcalc">
                     <div class="parede">
                     Digite o valor da altura da parede I : <input class="parede" type="number" id=Altura placeholder="altura(m)" ><br>
@@ -55,13 +68,12 @@
                  
 
 
-            <br><button type="button" onclick="Salvar()">Salvar</button>                        
+            <br><button type="button"  onclick="Salvar()">Salvar</button>  
+                                
             <div id = "res"> <strong id="result"></strong></div>
-           
             
-
-           
-        </form>
+                     
+            </form>
 
 
 
@@ -80,4 +92,3 @@
     </body>
 </html>
 
-<!-- <button class="botao-calcular" id="calculaTinta" type="button" onclick= "novaPagina(0)">Ver Resultado</button>-->

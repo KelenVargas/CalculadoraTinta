@@ -2,6 +2,71 @@ body{
     background: #CFCFCF;
 }
 
+header{
+    background:#CD853F;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    
+	text-transform: uppercase;
+	color: #696969;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+ }
+nav a:hover {
+    
+    background-color: antiquewhite;
+	color:#8B5742;
+	text-decoration: underline;
+}
+
+.container {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+}
+.fotologo{    
+   
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;    
+   
+    
+}
+/*aba Home*/
+.banner{
+    
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.284), rgba(0,0,0,0.280)), url('parede1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/*aba calculadora*/
 .titulo-primario{
 font-size: 20px;
 text-align: center;
@@ -50,21 +115,6 @@ font-family: 'Dancing Script', cursive;
 
 
 
-/*aba resultado*/
-
-.resultado{
-    text-align: center;
-    color: #c04609;
-    font-family: 'Poppins', sans-serif
-}
-
-.txtresult{
-    text-align: center;
-    color: aliceblue;
-    background: #696969 ;
-    border-radius: 20px;
-    font-size: 30px;
-}
 
 /*aba formulario*/
 
