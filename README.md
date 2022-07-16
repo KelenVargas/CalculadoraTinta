@@ -11,6 +11,8 @@ Projeto pelo programa de bolsas da compassUol
 - [x] Calculo das paredes.
 - [x] Calculo das janelas.
 - [x] Criar as três paginas propostas: Calculadora, resultado e formulario.
-- [ ] Validações
-- [ ] Calculo do rendimento da tinta.
+- [x] Validação parede entre 1 m² e 50 m²
+- [x] Calculo do rendimento da tinta.
+- [ ] Validação altura das paredes com porta de no minimo 30cm maior que a altura da porta
+- [ ] Validação total de area das portas e janelas deve ser no maximo 50% da area da parede
 
