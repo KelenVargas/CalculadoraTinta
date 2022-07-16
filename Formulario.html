@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário para contato</title>
-   
+
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
+
 <body>
     <header>
         <div class="container">
-            <h1><img src="assets/imgs/logo.png" class="fotologo"></h1>
-    
-            <nav>
-                <ul>
-                    <li><a href="Home.html">Página Inicial</a></li>
-                    <li><a href="CalculadoraTinta.html">Calculadora de tinta</a></li>
-                    <li><a href="Formulario.html">Entre em contato</a></li>
-                </ul>
-            </nav>
-        </div>
-        
+                <div class="fotologo"><img src="assets/imgs/logo.png"></div>
+            
+                <nav>
+                    <ul>
+                        <li><a href="Home.html">Página Inicial</a></li>
+                        <li><a href="CalculadoraTinta.html">Calculadora de tinta</a></li>
+                        <li><a href="Formulario.html">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
     </header>
-        <h1 class="contato">Entre em contato</h1>
-        <p class="fraseform">Gostou do nosso site ou quer deixar uma sugestão de melhoria?</p>
-        <p class="fraseform">Preencha os dados abaixos e nos envie sua mensagem!</p>
-    <form>
+    
+    <h1 class="contato">Entre em contato</h1>
+    <p class="fraseform">Gostou do nosso site ou quer deixar uma sugestão de melhoria?</p>
+    <p class="fraseform">Preencha os dados abaixos e nos envie sua mensagem!</p>
+    <form class="form">
         <fieldset class="field">
             <legend>Formulário</legend>
             <div>
-                <label>Nome: </label>
-                <input class="input-form" type="text" name="nome" id="nome" placeholder="Digite seu nome" required="required">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
             </div>
 
             <div>
                 <label>Sobrenome: </label>
-                <input class="input-form" type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required="required">
+                <input class="input-form" type="text" name="sobrenome" id="sobrenome"
+                    placeholder="Digite seu sobrenome">
             </div>
-      
 
-        <div>
-            <label>E-mail</label>
-            <input class="input-form" type="email" name="email" id="email" placeholder="Digite seu e-mail nome@email.com.br" required="required">
 
-        </div>
+            <div>
+                <label>E-mail</label>
+                <input class="input-form" type="email" name="email" id="email"
+                    placeholder="Digite seu e-mail nome@email.com.br">
 
-        <div>
-            <textarea class = "campo" required="required" placeholder=" Deixe aqui sua opinião"></textarea>
-        </div>
+            </div>
+
+            <div>
+                <textarea class="campo" placeholder=" Deixe aqui sua opinião"></textarea>
+            </div>
         </fieldset>
 
-        <input type="submit" class="enviar" value="Enviar" onclick="enviar()">
+        <input type="submit" class="enviar" value="Enviar" onclick="return validaForm()">
     </form>
 
-   
 
 
-    <footer><!--rodapé-->
+
+    <footer>
+        <!--rodapé-->
         <div class="img">
-        <img src="assets/imgs/logo-footer.png" alt="Logo">
+            <img src="assets/imgs/logo-footer.png" alt="Logo">
         </div>
         <p class="copyright"> &copy; Calculadora de tintas Vargas</p>
-    </footer><!--rodapé-->
+    </footer>
+    <!--rodapé-->
     <script src="app/script.js"></script>
 </body>
+
 </html>
