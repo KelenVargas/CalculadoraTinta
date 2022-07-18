@@ -20,8 +20,7 @@ nav {
 
 nav li {
 	display: inline-block;
-	margin:15px;  
-   
+	margin:15px;   
     
 }
 
@@ -57,9 +56,36 @@ nav a:hover {
       
 }
 
-/*aba Home*/
 
 
+.texto{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+   
+}
+
+
+
+.botao{
+    background-color: #f0530b;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+
+}
+
+.imghome{
+    display: block;
+    margin: 0px auto;
+    padding-top: 50px;
+    width: 80%;
+    
+
+}
 
 /*aba calculadora*/
 .titulo-primario{

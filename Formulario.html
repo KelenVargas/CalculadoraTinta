@@ -18,7 +18,7 @@
             
                 <nav>
                     <ul>
-                        <li><a href="Home.html">Página Inicial</a></li>
+                        <li><a href="Index.html">Página Inicial</a></li>
                         <li><a href="CalculadoraTinta.html">Calculadora de tinta</a></li>
                         <li><a href="Formulario.html">contato</a></li>
                     </ul>
@@ -29,12 +29,14 @@
     <h1 class="contato">Entre em contato</h1>
     <p class="fraseform">Gostou do nosso site ou quer deixar uma sugestão de melhoria?</p>
     <p class="fraseform">Preencha os dados abaixos e nos envie sua mensagem!</p>
+
     <form class="form">
         <fieldset class="field">
             <legend>Formulário</legend>
             <div>
                 <label for="nome">Nome: </label>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" >
+                
             </div>
 
             <div>
@@ -56,7 +58,7 @@
             </div>
         </fieldset>
 
-        <input type="submit" class="enviar" value="Enviar" onclick="return validaForm()">
+        <input id = "submit" type="submit" class="enviar" value="Enviar" onclick="validaForm()">
     </form>
 
 

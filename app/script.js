@@ -2,7 +2,7 @@
 
 function Clique(num) {
     var url = new Array();
-    url[0] = "http://127.0.0.1:5500/CalculadoraTinta.html";
+    url[0] = "CalculadoraTinta.html";
     window.location = url[num];
 
 }
@@ -23,11 +23,11 @@ function Salvar() {
 
         areaJanela = (2.00 * 1.20) * (document.getElementById("janela").value);// area da janela é fixa
 
-        var areaPortaJanela = ((areaPorta + areaJanela).toFixed(2));
-        var totalParede = ((parede1 + parede2 + parede3 + parede4).toFixed(2));
-        var areaPintar = ((totalParede - areaPortaJanela).toFixed(2));
-        var quantidadeTinta = ((areaPintar / 5).toFixed(2));
-        var res = window.document.getElementById('res');
+        let areaPortaJanela = ((areaPorta + areaJanela).toFixed(2));
+        let totalParede = ((parede1 + parede2 + parede3 + parede4).toFixed(2));
+        let areaPintar = ((totalParede - areaPortaJanela).toFixed(2));
+        let quantidadeTinta = ((areaPintar / 5).toFixed(2));
+        let res = window.document.getElementById('res');
 
 
 
@@ -142,23 +142,18 @@ function validar() {
     }
 
     return true;
+
+    
 }
 
 function validaForm(){
-    let nome  = form.nome.value;
-    let email = form.email.value;
+    let nome  = document.getElementById('nome').value;
+    let email = document.getElementById('email').value;
 
-    if(nome =="" || nome.length <=3){
-		alert("Informe o nome completo!");
-		form.nome.focus();
-		return false;
+    if(nome == '' || email == ''){
+		alert("O campo email e nome não pode ficar vazio!");
+		
 	}
 
-    if(email == "" || email.length < 10){
-		alert("E-mail não atende os requisitos!");
-		form.email.focus();
-		return false;
-	}
-
-    return true;
+    
 }
