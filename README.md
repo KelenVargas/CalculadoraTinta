@@ -31,7 +31,7 @@ Ele foi desenvolvido com base nas regras de negocio:
 <li> Java Script
 
 ## ✒️ Autora
-<li> Kelen Vargas 
+<li> Kelen Vargas <br>
 Links dos meus perfis no Linkedin e GitHub
 <p> https://www.linkedin.com/in/kelenvargas/
 <p> https://github.com/KelenVargas
