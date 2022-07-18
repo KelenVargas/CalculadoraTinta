@@ -19,7 +19,7 @@ Ele foi desenvolvido com base nas regras de negocio:
 > Para ter acesso ao projeto você terá que realizar estes passos abaixo:
 
 <li> Clone o repositorio em sua maquina pelo link <strong> https://github.com/KelenVargas/CalculadoraTinta.git</strong>
-<li> Vá na pasta em que está projeto que acabou de clonar o projeto.
+<li> Vá na pasta em que está projeto que acabou de clona.
 <li> Abra a pasta aonde o nome é index.html e execute o arquivo.
 
 
