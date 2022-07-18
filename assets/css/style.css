@@ -1,5 +1,5 @@
 
-
+/*pagina inteira*/
 body{
     background: #CFCFCF;
 }
@@ -44,7 +44,7 @@ nav a:hover {
     
    
 }
-
+/*aba principal*/
 .container {
 	position: relative;
 	width: 800px;
@@ -56,15 +56,11 @@ nav a:hover {
       
 }
 
-
-
 .texto{
     text-align: center;
     font-family: 'Dancing Script', cursive;
    
 }
-
-
 
 .botao{
     background-color: #f0530b;
@@ -87,7 +83,17 @@ nav a:hover {
 
 }
 
+
+
 /*aba calculadora*/
+
+#res{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #8B5742;
+}
+
 .titulo-primario{
 font-size: 20px;
 text-align: center;

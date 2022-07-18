@@ -1,7 +1,7 @@
 //Criei essa função com array para quando ela ser clicada lá na pagina inicial
 
 function Clique(num) {
-    var url = new Array();
+    let url = new Array();
     url[0] = "CalculadoraTinta.html";
     window.location = url[num];
 
@@ -73,10 +73,10 @@ function totalTinta(quantidadeTinta) {
         }
 
     }
-    res.innerHTML += `Tinta 18 litros: ${lataG} <br>
-                        Tinta 3.6 litros: ${lataM}<br>
-                        Tinta 2.5 litros: ${lataP}<br>
-                        Tinta 0.5 litros: ${lataPP}<br>
+    res.innerHTML += `  Galão de 18 litros: ${lataG}   unidade <br>
+                        Galão de 3.6 litros: ${lataM}  unidade<br>
+                        Galão de 2.5 litros: ${lataP}  unidade<br>
+                        Galão de 0.5 litros: ${lataPP} unidade<br>
                         `
 
 }
@@ -107,37 +107,37 @@ function validar() {
 
     if (alt2 < 1 || alt2 > 50) {
         alert("A área da parede deve ser maior ou igual a 1 m² e menor ou igual a 50 m². Por favor, insira valores válidos. ");
-        metragem.alt.focus();
+        metragem.alt2.focus();
         return false;
     }
 
     if (larg2 < 1 || larg2 > 50) {
         alert("A área da parede deve ser maior ou igual a 1 m² e menor ou igual a 50 m². Por favor, insira valores válidos.");
-        metragem.larg.focus();
+        metragem.larg2.focus();
         return false;
     }
 
     if (alt3 < 1 || alt3 > 50) {
         alert("A área da parede deve ser maior ou igual a 1 m² e menor ou igual a 50 m². Por favor, insira valores válidos. ");
-        metragem.alt.focus();
+        metragem.alt3.focus();
         return false;
     }
 
     if (larg3 < 1 || larg3 > 50) {
         alert("A área da parede deve ser maior ou igual a 1 m² e menor ou igual a 50 m². Por favor, insira valores válidos.");
-        metragem.larg.focus();
+        metragem.larg3.focus();
         return false;
     }
 
     if (alt4 < 1 || alt4 > 50) {
         alert("A área da parede deve ser maior ou igual a 1 m² e menor ou igual a 50 m². Por favor, insira valores válidos. ");
-        metragem.alt.focus();
+        metragem.alt4.focus();
         return false;
     }
 
     if (larg4 < 1 || larg4 > 50) {
         alert("A área da parede deve ser maior ou igual a 1 m² e menor ou igual a 50 m². Por favor, insira valores válidos.");
-        metragem.larg.focus();
+        metragem.larg4.focus();
         return false;
     }
 
