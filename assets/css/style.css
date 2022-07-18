@@ -1,10 +1,9 @@
-
 /*pagina inteira*/
-body{
+body {
     background: #CFCFCF;
 }
 
-header{
+header {
     background: #8B4513;
     width: 100%;
     height: 200px;
@@ -13,56 +12,58 @@ header{
 
 
 nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
-	display: inline-block;
-	margin:15px;   
-    
+    display: inline-block;
+    margin: 15px;
+
 }
 
 
 
-nav a {    
-	text-transform: uppercase;
-	color: #0f0f0f;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;    
+nav a {
+    text-transform: uppercase;
+    color: #0f0f0f;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    
- }
+
+}
 
 nav a:hover {
-    
+
     background-color: antiquewhite;
-	color:#8B5742;
-	text-decoration: underline;
-    
-   
+    color: #8B5742;
+    text-decoration: underline;
+
+
 }
+
 /*aba principal*/
 .container {
-	position: relative;
-	width: 800px;
-	margin: 0 auto;
-}
-.fotologo{   
-    display: flex;
-    justify-content: center;    
-      
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
 }
 
-.texto{
+.fotologo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto {
     text-align: center;
     font-family: 'Dancing Script', cursive;
-   
+
 }
 
-.botao{
+.botao {
     background-color: #f0530b;
     height: 40px;
     width: 100px;
@@ -74,12 +75,12 @@ nav a:hover {
 
 }
 
-.imghome{
+.imghome {
     display: block;
     margin: 0px auto;
     padding-top: 50px;
     width: 80%;
-    
+
 
 }
 
@@ -87,57 +88,59 @@ nav a:hover {
 
 /*aba calculadora*/
 
-#res{
+#res {
     font-size: 25px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #8B5742;
 }
 
-.titulo-primario{
-font-size: 20px;
-text-align: center;
-color: #8B4726;
-font-family: 'Dancing Script', cursive;
+.titulo-primario {
+    font-size: 20px;
+    text-align: center;
+    color: #8B4726;
+    font-family: 'Dancing Script', cursive;
 
 }
 
-.titulo-secundario{
-    font-size:30px;
+.titulo-secundario {
+    font-size: 30px;
     padding-top: 0;
     font-style: italic;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color:#8B4513;
-    }
+    color: #8B4513;
+}
 
-.subtitulos{
-    font-size: 20px;    
+.subtitulos {
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
 
 }
 
-.img{
+.img {
     display: flex;
     justify-content: center;
 }
-.copyright{
- text-align: center;
+
+.copyright {
+    text-align: center;
 
 }
 
-.parede{
-   margin-top: 5px; 
+.parede {
+    margin-top: 5px;
 }
 
-.janela, .porta{
-    margin: 10px 0 5px 0; 
-    
-  
+.janela,
+.porta {
+    margin: 10px 0 5px 0;
+
+
 }
 
-.fieldcalc{
-    margin-bottom: 40px; 
+.fieldcalc {
+    margin-bottom: 40px;
 }
 
 
@@ -145,32 +148,32 @@ font-family: 'Dancing Script', cursive;
 
 /*aba formulario*/
 
-.contato{
+.contato {
     color: #c04609;
     font-family: 'Poppins', sans-serif;
 }
 
-.fraseform{
+.fraseform {
     font-size: 18px;
 }
 
-.campo{
+.campo {
     width: 300px;
     height: 200px;
-    color: black;   
+    color: black;
     margin-top: 10px;
     border-radius: 5px;
     border-radius: 5px;
     border: 1px solid;
 }
 
-.input-form{
+.input-form {
     width: 250px;
     margin-top: 10px;
-    
+
 }
 
-.enviar{
+.enviar {
     background-color: #f0530b;
     height: 40px;
     width: 100px;
@@ -183,7 +186,5 @@ font-family: 'Dancing Script', cursive;
 }
 
 .field {
-    width:400px;
+    width: 400px;
 }
-
-

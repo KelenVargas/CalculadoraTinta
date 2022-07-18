@@ -143,17 +143,17 @@ function validar() {
 
     return true;
 
-    
+
 }
 
-function validaForm(){
-    let nome  = document.getElementById('nome').value;
+function validaForm() {
+    let nome = document.getElementById('nome').value;
     let email = document.getElementById('email').value;
 
-    if(nome == '' || email == ''){
-		alert("O campo email e nome não pode ficar vazio!");
-		
-	}
+    if (nome == '' || email == '') {
+        alert("O campo email e nome não pode ficar vazio!");
 
-    
+    }
+
+
 }
