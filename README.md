@@ -26,6 +26,9 @@ Ele foi desenvolvido com base nas regras de negocio:
 ## 🛠️ Construído com:
 
 <li> Visual studio code 
+<li> HTML
+<li> CSS
+<li> Java Script
 
 ## ✒️ Autora
 <li> Kelen Vargas 
